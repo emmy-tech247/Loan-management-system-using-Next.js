@@ -1,0 +1,27 @@
+import ForgotPasswordForm from "./ForgotPasswordForm";
+
+export default function ForgotPasswordCard() {
+  return (
+    <section className="flex items-center justify-center px-6 py-12">
+
+      <div className="w-full max-w-md rounded-3xl bg-white/80 p-8 shadow-2xl backdrop-blur-xl">
+
+        <div className="mb-8 text-center">
+
+          <h2 className="text-3xl font-bold">
+            Forgot Password?
+          </h2>
+
+          <p className="mt-2 text-gray-500">
+            Enter your email address to receive a password reset link.
+          </p>
+
+        </div>
+
+        <ForgotPasswordForm />
+
+      </div>
+
+    </section>
+  );
+}
