@@ -1,3 +1,4 @@
+
 import crypto from "crypto";
 
 /*==============================================================
@@ -6,6 +7,18 @@ Email Verification Token
 
 export function generateVerificationToken(): string {
   return crypto.randomBytes(32).toString("hex");
+}
+
+/*==============================================================
+Generate OTP
+==============================================================*/
+
+export function generateOTP(length = 6): string {
+  const max = 10 ** length;
+  return crypto
+    .randomInt(0, max)
+    .toString()
+    .padStart(length, "0");
 }
 
 /*==============================================================
@@ -24,39 +37,33 @@ Expiry Date
 ==============================================================*/
 
 export function tokenExpiry(hours = 24): Date {
-
   const expiry = new Date();
-
   expiry.setHours(expiry.getHours() + hours);
-
   return expiry;
-
 }
 
 /*==============================================================
 Payment Reference
 ==============================================================*/
 
-export function generatePaymentReference() {
-
+export function generatePaymentReference(): string {
   return (
     "DCG-" +
     Date.now() +
     "-" +
-    Math.floor(Math.random() * 1000000)
+    crypto.randomInt(0, 1_000_000)
+      .toString()
+      .padStart(6, "0")
   );
-
 }
 
 /*==============================================================
 Random Member Code
 ==============================================================*/
 
-export function generateMemberCode() {
-
+export function generateMemberCode(): string {
   return (
     "MEM" +
-    Math.floor(100000 + Math.random() * 900000)
+    crypto.randomInt(100000, 1_000_000)
   );
-
 }
