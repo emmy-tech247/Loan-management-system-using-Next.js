@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 import bcrypt from "bcryptjs";
 import { cookies } from "next/headers";
 
-import prisma from "@/lib/prisma";
+import {prisma} from "@/lib/prisma";
 
 export async function staffLogin(formData: FormData) {
   const email = String(formData.get("email") || "")

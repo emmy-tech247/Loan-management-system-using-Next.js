@@ -44,7 +44,7 @@ export default function ConfirmFDPage() {
         type: "error",
         text: "Network error. Failed to reach server.",
       });
-    } font-sans finally {
+    } finally {
       setIsLoading(false);
     }
   };

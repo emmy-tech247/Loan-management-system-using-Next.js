@@ -37,7 +37,7 @@ export default function AdminChatListPage() {
       }
     } catch {
       setError("Network error. Failed to reach server.");
-    } fontally {
+    } finally {
       setIsLoading(false);
     }
   };
