@@ -4,6 +4,20 @@ A modern web-based loan management system designed to help manage cooperative so
 
 **GitHub Repository:** [Loan-management-system-using-Next.js](https://github.com/emmy-tech247/Loan-management-system-using-Next.js/tree/main)
 
+## Screenshots
+
+### 1. Homepage
+
+![Loan Management System Homepage](homepage.PNG)
+
+### 2. Admin Dashboard
+
+![Loan Management System Admin Dashboard](admin-page.PNG)
+
+### 3. Login Page
+
+![Loan Management System Login Page](login-page.PNG)
+
 ## About the Project
 
 The Loan Management System is a full-stack web application built to support the digitization of cooperative financial services. It aims to simplify loan processing, improve member record management, streamline staff operations, and provide a centralized platform for managing financial activities.
@@ -119,9 +133,8 @@ Potential improvements include enhanced financial dashboards, automated repaymen
 
 Full-Stack Developer
 
-GitHub: [@emmy-tech247](https://github.com/emmy-tech247)
-
-Portfolio: [emmanuel-alao-portfolio.vercel.app](https://emmanuel-alao-portfolio.vercel.app)
+- **GitHub:** [@emmy-tech247](https://github.com/emmy-tech247)
+- **Portfolio:** [emmanuel-alao-portfolio.vercel.app](https://emmanuel-alao-portfolio.vercel.app)
 
 ## License
 
