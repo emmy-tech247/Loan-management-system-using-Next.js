@@ -8,15 +8,15 @@ A modern web-based loan management system designed to help manage cooperative so
 
 ### 1. Homepage
 
-![Loan Management System Homepage](homepage.PNG)
+![Loan Management System Homepage](home-page.png)
 
 ### 2. Admin Dashboard
 
-![Loan Management System Admin Dashboard](admin-page.PNG)
+![Loan Management System Admin Dashboard](admin-dashboard.png)
 
 ### 3. Login Page
 
-![Loan Management System Login Page](login-page.PNG)
+![Loan Management System Login Page](login-page.png)
 
 ## About the Project
 
